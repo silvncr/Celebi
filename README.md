@@ -1,1 +1,6 @@
-<h1 align="center"><code>Images</code></h1>
+<h1 align="center"><code>Celebi</code></h1>
+<hr>
+<h3 align="center">README.md WIP</h3>
+<hr>
+<img src="docs/images/celebi.png">
+<br>

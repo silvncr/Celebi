@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(167, 211, 125);
+}
+#box {
+  background-color: rgb(219, 235, 198);
+  border: 1px dashed grey;
+  padding-left: 5%;
+}
+#celebi {
+  width: 20%;
+  float: right;
+  padding-right: 5%;
+}
+h1 {
+  font-family: "Brush Script MT", cursive;
+}
+li a {
+  font-family: "Courier New", monospace;
+  color: rgb(61, 128, 181);
+  text-decoration: none;
+}
