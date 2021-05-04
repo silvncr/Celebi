@@ -17,8 +17,20 @@ HTML:
 ```
 Just replace `<username>` with your User or Org name!
 
-Then, go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me to add you to the list!
+Example:
+```
+![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
+```
+Output:
+
+![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
+
+Once that's done, go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me to add you to the list!
+
+### How It Works
+Each time the image is loaded, it increases the counter by one. Celebi refreshes the page at the fastest speed your device and browser can handle, therefore quickly giving views.
 
 ### Notes
 - Users and Orgs are listed separately.
 - Lists are in alphabetical order.
+- It is unnecessary to use more than one tab at a time.
