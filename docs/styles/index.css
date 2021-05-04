@@ -3,7 +3,7 @@ body {
 }
 #box {
   background-color: rgb(219, 235, 198);
-  border: 1px dashed grey;
+  border: 1px solid rgb(61, 128, 181);
   padding-left: 5%;
 }
 #celebi {
