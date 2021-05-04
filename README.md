@@ -18,3 +18,7 @@ HTML:
 Just replace `<username>` with your User or Org name!
 
 Then, go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me to add you to the list!
+
+### Notes
+- Users and Orgs are listed separately.
+- Lists are in alphabetical order.
