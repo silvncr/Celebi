@@ -24,7 +24,7 @@ Output:
 ![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
 
 ---
-Once that's done, go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me to add you to the list!
+If your view counter is up and running, go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me to add you to the list! Once you're added, click your link on the [Celebi Website](https://turnipguy30.github.io/Celebi/ "Celebi Website") and leave it running.
 
 ### How It Works
 Each time the image is loaded, it increases the counter by one. Celebi refreshes the page at the fastest speed your device and browser can handle, therefore quickly giving views.
