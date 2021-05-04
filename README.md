@@ -3,4 +3,3 @@
 <h3 align="center">README.md WIP</h3>
 <hr>
 <img src="docs/images/celebi.png">
-<br>
