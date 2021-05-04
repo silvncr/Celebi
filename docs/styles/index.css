@@ -7,9 +7,11 @@ body {
   padding-left: 5%;
 }
 #celebi {
+  position: fixed;
   width: 20%;
   float: right;
   padding-right: 5%;
+  right: 0;
 }
 h1 {
   font-family: "Brush Script MT", cursive;
