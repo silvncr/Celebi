@@ -13,7 +13,7 @@ HTML:
 <img src="https://gpvc.arturio.dev/<username>"/>
 ```
 Just replace `<username>` with your User or Org name!
-
+---
 Example:
 ```markdown
 ![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
@@ -21,7 +21,7 @@ Example:
 Output:
 
 ![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
-
+---
 Once that's done, go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me to add you to the list!
 
 ### How It Works
