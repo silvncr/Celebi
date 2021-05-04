@@ -18,7 +18,7 @@ HTML:
 Just replace `<username>` with your User or Org name!
 
 Example:
-```
+```markdown
 ![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
 ```
 Output:
