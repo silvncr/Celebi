@@ -33,3 +33,5 @@ Each time the image is loaded, it increases the counter by one. Celebi refreshes
 - Users and Orgs are listed separately.
 - Lists are in alphabetical order.
 - It is unnecessary to use more than one tab at a time.
+- This also works for Repos, and some are included by special permission.
+- "Org" is a GitHub keyword which means "Organisation".
