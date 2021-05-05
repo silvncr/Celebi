@@ -2,7 +2,7 @@
 <img align="center" src="docs/images/celebi.png">
 
 ### View Counter Bot
-This bot is for use with profile view counters from `https://gpvc.arturio.dev/`. If you don't know how to use them, just use the following code to the README/webpage for your User or Org:
+This bot is for use with profile view counters from `https://gpvc.arturio.dev/`. If you don't know how to use them, just add the following code to the README/webpage for your User or Org:
 
 Markdown:
 ```markdown
