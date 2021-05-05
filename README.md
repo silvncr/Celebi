@@ -27,7 +27,7 @@ Output:
 If you want to be added to Celebi, go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me to add you to the list! Once you're added, click your link on the [Celebi Website](https://turnipguy30.github.io/Celebi/ "Celebi Website") and leave it running.
 
 ### How It Works
-Each time the image is loaded, it increases the counter by one. Celebi refreshes the page at the fastest speed your device and browser can handle, therefore quickly giving views.
+Each time the image is loaded, it increases the counter by one. Celebi exploits this by refreshing the page at the fastest speed your device and browser can handle. This quickly increases the counter, thus giving views.
 
 ### Notes
 - Users and Orgs are listed separately.
