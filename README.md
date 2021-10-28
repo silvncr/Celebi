@@ -1,5 +1,5 @@
 <h1 align="center"><code>Celebi</code></h1>
-<img align="right" src="docs/images/celebi.png">
+<img align="right" src="docs/celebi.png">
 
 ### View Counter Bot
 This bot is for use with profile view counters from `https://gpvc.arturio.dev/`. If you don't know how to use them, just use the following code in your README or website:
