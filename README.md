@@ -1,6 +1,4 @@
 <h1 align="center"><code>Celebi</code></h1>
-<h6>Celebi is currently not working, as it is being rewritten.</h6>
-<hr>
 <img align="right" src="docs/celebi.png">
 
 ### View Counter Bot
@@ -34,6 +32,5 @@ Alternatively, you can go directly to `https://turnipguy30.github.io/celebi/page
 Each time the image is loaded, it increases the counter by one. Celebi exploits this by refreshing the page at the fastest speed your device and browser can handle. This quickly increases the counter, thus giving views.
 
 ### Notes
-- The list is in alphabetical order.
 - It is unnecessary to use more than one tab at a time.
 - For more information on the Profile View Counter, please see [https://gpvc.arturio.dev](https://gpvc.arturio.dev).
