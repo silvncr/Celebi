@@ -12,7 +12,7 @@ HTML:
 ```html
 <img src="https://gpvc.arturio.dev/[tag]"/>
 ```
-Just replace `[tag]` with whatever you want. Alphanumeric characters and hyphens can be used (case **insensitive**), and it's good to use your Username, Organisation name, or Repo name because if you use the same link as someone else, your counter won't be accurate. This means that different Repos can share the same counter.
+Just replace `[tag]` with whatever you want. Alphanumeric characters and hyphens can be used (case **insensitive**), and it's good to use your Username, Organisation name, or Repo name because if you use the same link as someone else, your counter won't be accurate. This is because the same counter can be used in different places.
 
 ---
 Example:
@@ -21,7 +21,7 @@ Example:
 ```
 Output:
 
-![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
+![View Counter](https://gpvc.arturio.dev/TurnipGuy30 "![View Counter](https://gpvc.arturio.dev/TurnipGuy30)")
 
 ---
 To use Celebi, go to the [Celebi Website](https://turnipguy30.github.io/Celebi/ "Celebi Website"), type in your `[tag]`, and leave it running.
