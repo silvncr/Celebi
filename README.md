@@ -1,4 +1,6 @@
 <h1 align="center"><code>Celebi</code></h1>
+<h6>Celebi is currently not working, as it is being rewritten.</h6>
+<hr>
 <img align="right" src="docs/celebi.png">
 
 ### View Counter Bot
@@ -24,7 +26,9 @@ Output:
 ![View Counter](https://gpvc.arturio.dev/TurnipGuy30)
 
 ---
-If you want to be added to Celebi, you just need to go to [Discussions](https://github.com/TurnipGuy30/Celebi/discussions "Celebi Discussions") and tell me what you replaced `[tag]` with! Once you're added, click your link on the [Celebi Website](https://turnipguy30.github.io/Celebi/ "Celebi Website") and leave it running.
+To use Celebi, go to the [Celebi Website](https://turnipguy30.github.io/Celebi/ "Celebi Website"), type in your `[tag]`, and leave it running.
+
+Alternatively, you can go directly to `https://turnipguy30.github.io/celebi/page.html?a=[tag]`. This is technically more reliable than using the UI.
 
 ### How It Works
 Each time the image is loaded, it increases the counter by one. Celebi exploits this by refreshing the page at the fastest speed your device and browser can handle. This quickly increases the counter, thus giving views.

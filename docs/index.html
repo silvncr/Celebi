@@ -3,25 +3,54 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="icon" href="celebi.png">
-		<title>Home | Celebi</title>
+		<title>Home | Celebi v1.3</title>
 		<style>@import url("styles/index.css");</style>
-		<script src="scripts/index.js"></script>
+		<script>
+			var f = function(t) {
+				if (window.location.href.toLowerCase().endsWith(".html")) {
+					window.open(window.location.href.toLowerCase().replace("index.html","page.html?a=") + t);
+				} else {
+					window.open(window.location.href.toLowerCase().replace("celebi","celebi/page?a=") + t);
+				};
+			};
+			var redirect = function() {
+				//alert('1/3 - Button pressed!');
+				var input = document.getElementById("input").value;
+				//alert('2/3 - Variable declared!');
+				if (!(input == null || input == "null" || input == "")) {
+					//alert('3/3 - Redirect reached!');
+					f(input);
+				};
+			};
+		</script>
 	</head>
-	<body>
+	<body id="body">
 		<div id="box">
 			<a href="https://github.com/TurnipGuy30/Celebi" target="_blank" rel="noopener noreferrer">
 				<img src="celebi.png" id="celebi">
-			</a>
-			<h1>Celebi Homepage</h1>
-			<br>
-			<p>Please enter a tag in this format: <code>https://gpvc.arturio.dev/[tag]</code></p>
-			<br>
-			<form id="form" autocomplete="off">
-				<input type="text" id="input" width="70%" />
-			</form>
-			<br>
-			<button id="submit">Submit</button>
-			<br>
+			</a><h1>Celebi Homepage</h1>
+			<p>
+				Please enter a tag in this format: <code>https://gpvc.arturio.dev/[tag]</code>
+				<br>
+				<form id="form" autocomplete="off">
+					<input type="text" id="input" width="70%" />
+				</form>
+				<br>
+				<button onClick="redirect();">Submit</button>
+				<br>
+				&nbsp;
+				<h1>Featured Counters</h1>
+				<ul>
+					<li><img src="https://gpvc.arturio.dev/hacking-mudkip" height="16px"> - <a href="page.html?a=hacking-mudkip" target="_blank" rel="noopener noreferrer">hacking-mudkip</a></li>
+					<li><img src="https://gpvc.arturio.dev/isabel-lifu-211207-xprado" height="16px"> - <a href="page.html?a=isabel-lifu-211207-xprado" target="_blank" rel="noopener noreferrer">isabel-lifu-211207-xprado</a></li>
+					<li><img src="https://gpvc.arturio.dev/isabel-lifu" height="16px"> - <a href="page.html?a=isabel-lifu" target="_blank" rel="noopener noreferrer">isabel-lifu</a></li>
+					<li><img src="https://gpvc.arturio.dev/lahonathon" height="16px"> - <a href="page.html?a=lahonathon" target="_blank" rel="noopener noreferrer">lahonathon</a></li>
+					<li><img src="https://gpvc.arturio.dev/pokemon-pythonred" height="16px"> - <a href="page.html?a=pokemon-pythonred" target="_blank" rel="noopener noreferrer">pokemon-pythonred</a></li>
+        			<li><img src="https://gpvc.arturio.dev/turnipguy30" height="16px"> - <a href="page.html?a=turnipguy30" target="_blank" rel="noopener noreferrer">turnipguy30</a></li>
+					<li><img src="https://gpvc.arturio.dev/valerimatical" height="16px"> - <a href="page.html?a=valerimatical" target="_blank" rel="noopener noreferrer">valerimatical</a></li>
+					<li><img src="https://gpvc.arturio.dev/xpavilion" height="16px"> - <a href="page.html?a=xpavilion" target="_blank" rel="noopener noreferrer">xpavilion</a></li>
+				</ul>
+			</p>
 		</div>
 	</body>
 </html>
