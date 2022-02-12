@@ -32,5 +32,5 @@ Alternatively, you can go directly to `https://turnipguy30.github.io/celebi/page
 Each time the image is loaded, it increases the counter by one. Celebi exploits this by refreshing the page repeatedly. This quickly increases the counter, thus giving views.
 
 ### Notes
-- It is unnecessary to use more multiple tabs for the same counter.
+- It is unnecessary to use multiple tabs for the same counter.
 - For more information on the Profile View Counter, please see [https://gpvc.arturio.dev](https://gpvc.arturio.dev).
