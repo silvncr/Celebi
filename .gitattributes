@@ -1,4 +1,0 @@
-* text=auto
-*.html linguist-detectable=true linguist-language=html
-*.css linguist-detectable=true linguist-language=css
-*.js linguist-detectable=true linguist-language=javascript
