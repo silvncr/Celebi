@@ -3,9 +3,26 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="icon" href="celebi.png">
-		<title>Home | Celebi v1.1.0</title>
+		<title>Home | Celebi v1.2.0</title>
 		<style>@import url("styles/index.css");</style>
 		<script>
+			function addFeatured(item) {
+					document.getElementById("featured").innerHTML += '<li><img src="https://gpvc.arturio.dev/' + item + '" height="16px"> - <a href="page.html?a=' + item + '" target="_blank" rel="noopener noreferrer">' + item + '</a></li>';
+					//alert("Added " + item)
+			};
+			var featured = [
+				"hacking-mudkip",
+				"isabel-lifu-211207-xprado",
+				"isabel-lifu",
+				"lahonathon",
+				"lhn",
+				"pokemon-pythonred",
+				"pradolang",
+				"ravanger101",
+				"turnipguy30",
+				"valerimatical",
+				"xpavilion"
+			]
 		</script>
 		<script>
 			var f = function(t) {
@@ -26,7 +43,7 @@
 			};
 		</script>
 	</head>
-	<body id="body">
+	<body id="body" onload="featured.forEach(addFeatured);">
 		<div id="box">
 			<a href="https://github.com/TurnipGuy30/Celebi" target="_blank" rel="noopener noreferrer">
 				<img src="celebi.png" id="celebi">
@@ -42,18 +59,7 @@
 				<br>
 				&nbsp;
 				<h1>Featured Counters</h1>
-				<ul>
-					<li><img src="https://gpvc.arturio.dev/hacking-mudkip" height="16px"> - <a href="page.html?a=hacking-mudkip" target="_blank" rel="noopener noreferrer">hacking-mudkip</a></li>
-					<li><img src="https://gpvc.arturio.dev/isabel-lifu-211207-xprado" height="16px"> - <a href="page.html?a=isabel-lifu-211207-xprado" target="_blank" rel="noopener noreferrer">isabel-lifu-211207-xprado</a></li>
-					<li><img src="https://gpvc.arturio.dev/isabel-lifu" height="16px"> - <a href="page.html?a=isabel-lifu" target="_blank" rel="noopener noreferrer">isabel-lifu</a></li>
-					<li><img src="https://gpvc.arturio.dev/lahonathon" height="16px"> - <a href="page.html?a=lahonathon" target="_blank" rel="noopener noreferrer">lahonathon</a></li>
-					<li><img src="https://gpvc.arturio.dev/pokemon-pythonred" height="16px"> - <a href="page.html?a=pokemon-pythonred" target="_blank" rel="noopener noreferrer">pokemon-pythonred</a></li>
-					<li><img src="https://gpvc.arturio.dev/pradolang" height="16px"> - <a href="page.html?a=pradolang" target="_blank" rel="noopener noreferrer">pradolang</a></li>
-					<li><img src="https://gpvc.arturio.dev/ravanger101" height="16px"> - <a href="page.html?a=ravanger101" target="_blank" rel="noopener noreferrer">ravanger101</a></li>
-					<li><img src="https://gpvc.arturio.dev/turnipguy30" height="16px"> - <a href="page.html?a=turnipguy30" target="_blank" rel="noopener noreferrer">turnipguy30</a></li>
-					<li><img src="https://gpvc.arturio.dev/valerimatical" height="16px"> - <a href="page.html?a=valerimatical" target="_blank" rel="noopener noreferrer">valerimatical</a></li>
-					<li><img src="https://gpvc.arturio.dev/xpavilion" height="16px"> - <a href="page.html?a=xpavilion" target="_blank" rel="noopener noreferrer">xpavilion</a></li>
-				</ul>
+				<ul id="featured"></ul>
 			</p>
 		</div>
 	</body>
