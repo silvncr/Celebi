@@ -3,13 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="icon" href="../logo.png">
-		<title>Home | Celebi v1.2.0</title>
+		<title>Home | Celebi v1.2.1</title>
 		<style>@import url("styles/index.css");</style>
 		<script>
-			function addFeatured(item) {
-					document.getElementById("featured").innerHTML += '<li><img src="https://gpvc.arturio.dev/' + item + '" height="16px"> - <a href="page.html?a=' + item + '" target="_blank" rel="noopener noreferrer">' + item + '</a></li>';
-					//alert("Added " + item)
-			};
 			var featured = [
 				"hacking-mudkip",
 				"isabel-lifu-211207-xprado",
@@ -23,13 +19,15 @@
 				"valerimatical",
 				"xpavilion"
 			]
-		</script>
-		<script>
+			function addFeatured(item) {
+					document.getElementById("featured").innerHTML += '<li><img src="https://gpvc.arturio.dev/' + item + '" height="16px"> - <a href="page.html?tag=' + item + '" target="_blank" rel="noopener noreferrer">' + item + '</a></li>';
+					//alert("Added " + item)
+				};
 			var f = function(t) {
 				if (window.location.href.toLowerCase().endsWith(".html")) {
-					window.open(window.location.href.toLowerCase().replace("index.html","page.html?a=") + t);
+					window.open(window.location.href.toLowerCase().replace("index.html","page.html?tag=") + t);
 				} else {
-					window.open(window.location.href.toLowerCase().replace("celebi","celebi/page?a=") + t);
+					window.open(window.location.href.toLowerCase().replace("celebi","celebi/page?tag=") + t);
 				};
 			};
 			var redirect = function() {

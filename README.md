@@ -26,7 +26,7 @@ Output:
 ---
 To use Celebi, go to the [Celebi Website](https://turnipguy30.github.io/Celebi/ "Celebi Website"), type in your `[tag]`, and leave it running.
 
-Alternatively, you can go directly to `https://turnipguy30.github.io/Celebi/page.html?a=[tag]`. This is technically more reliable than using the UI.
+Alternatively, you can go directly to `https://turnipguy30.github.io/Celebi/page.html?tag=[tag]`. This is technically more reliable than using the UI.
 
 ### How It Works
 Each time the image is loaded, it increases the counter by one. Celebi exploits this by refreshing the page repeatedly. This quickly increases the counter, thus giving views.

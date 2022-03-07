@@ -8,7 +8,7 @@
 		<script defer>
 			var v = "v1.2.0";
 			var location = window.location.href.toLowerCase();
-			const a = new URLSearchParams(window.location.search).get('a');
+			const a = new URLSearchParams(window.location.search).get('tag');
 			if (a != null && a != "null" && a != "") {
 				document.getElementById("page").innerHTML = '<html lang="en" dir="ltr"><head><meta charset="utf-8" http-equiv="refresh" content="0" url="'+location+'"><link rel="icon" href="../logo.png"><title>'+a+' | Celebi '+v+'</title></head><body style="background-color:rgb(167,211,125);"><div style="background-color:rgb(219,235,198);border:1px solid rgb(61,128,181);padding-left:5%;"><h1 style="font-family:"Brush Script MT",cursive;">'+a+'</h1><p><a href="index.html" target="_blank" rel="noopener noreferrer">Homepage</a></p><img src="https://gpvc.arturio.dev/'+a+'"></div></body></html>';
 			} else {
