@@ -1,5 +1,5 @@
 <h1 align="center"><code>Celebi</code></h1>
-<img align="right" src="docs/celebi.png">
+<img align="right" src="logo.png">
 
 ### View Counter Bot
 This bot is for use with profile view counters from `https://gpvc.arturio.dev/`. If you don't know how to use them, just use the following code in your README or website:
@@ -26,7 +26,7 @@ Output:
 ---
 To use Celebi, go to the [Celebi Website](https://turnipguy30.github.io/Celebi/ "Celebi Website"), type in your `[tag]`, and leave it running.
 
-Alternatively, you can go directly to `https://turnipguy30.github.io/celebi/page.html?a=[tag]`. This is technically more reliable than using the UI.
+Alternatively, you can go directly to `https://turnipguy30.github.io/Celebi/page.html?a=[tag]`. This is technically more reliable than using the UI.
 
 ### How It Works
 Each time the image is loaded, it increases the counter by one. Celebi exploits this by refreshing the page repeatedly. This quickly increases the counter, thus giving views.
