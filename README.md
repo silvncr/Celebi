@@ -1,7 +1,8 @@
-<img align="right" src="logo.png">
 <hr>
 <h1 align="center"><code>Celebi</code></h1>
 <hr>
+
+<img align="right" src="logo.png">
 
 ### View Counter Bot
 
