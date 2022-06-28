@@ -3,25 +3,26 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="icon" href="../logo.png">
-		<title>Home | Celebi v1.2.1</title>
+		<title>Home | Celebi v1.2.2</title>
 		<style>@import url("styles/index.css");</style>
 		<script>
 			var featured = [
 				"hacking-mudkip",
 				"isabel-lifu-211207-xprado",
 				"isabel-lifu",
+				"joeblownn",
 				"lahonathon",
 				"lhn",
 				"pokemon-pythonred",
 				"pradolang",
 				"ravanger101",
 				"turnipguy30",
+				"valensce",
 				"valerimatical",
 				"xpavilion"
-			]
+			].sort();
 			function addFeatured(item) {
 					document.getElementById("featured").innerHTML += '<li><img src="https://gpvc.arturio.dev/' + item + '" height="16px"> - <a href="page.html?tag=' + item + '" target="_blank" rel="noopener noreferrer">' + item + '</a></li>';
-					//alert("Added " + item)
 				};
 			var f = function(t) {
 				if (window.location.href.toLowerCase().endsWith(".html")) {
@@ -31,12 +32,12 @@
 				};
 			};
 			var redirect = function() {
-				//alert('1/3 - Button pressed!');
-				var input = document.getElementById("input").value;
-				//alert('2/3 - Variable declared!');
-				if (!(input == null || input == "null" || input == "")) {
-					//alert('3/3 - Redirect reached!');
+				var input = document.getElementById("input").value.toLowerCase();
+				if (!(input == null || input == "null" || input == "" || input.match(/[^0-9^a-z-]/))) {
+					document.getElementById("output").innerHTML = "";
 					f(input);
+				} else {
+					document.getElementById("output").innerHTML = "Invalid tag!";
 				};
 			};
 		</script>
@@ -45,14 +46,15 @@
 		<div id="box">
 			<a href="https://github.com/TurnipGuy30/Celebi" target="_blank" rel="noopener noreferrer">
 				<img src="https://raw.githubusercontent.com/TurnipGuy30/Celebi/main/logo.png" id="celebi">
-			</a><h1>Celebi Homepage</h1>
+			</a>
+			<h1>Celebi Homepage</h1>
 			<p>
 				Please enter a tag in this format: <code>https://gpvc.arturio.dev/[tag]</code>
 				<br>
 				<form id="form" autocomplete="off">
 					<input type="text" id="input" width="70%" />
 				</form>
-				<br>
+				<p id="output"></p>
 				<button onClick="redirect();">Submit</button>
 				<br>
 				&nbsp;
