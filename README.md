@@ -6,7 +6,9 @@
 
 ### View Counter Bot
 
-This bot is for use with profile view counters from `https://gpvc.arturio.dev/`. If you don't know how to use them, just use the following code in your README or website:
+This bot is for use with profile view counters from `https://gpvc.arturio.dev/`.
+
+If you don't already know how they work, just use the following code in your `README` or website:
 
 Markdown:
 
